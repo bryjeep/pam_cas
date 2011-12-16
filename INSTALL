@@ -1,0 +1,14 @@
+INSTALL du package esup de pam_cas
+
+Voir la doc http://www.esup-portail.org/display/PROJPAMCAS/Module+PAM+pour+CAS
+
+- cd source
+- adapter eventuellement le Makefile
+- make
+- make test
+
+- ldd pam_cas.so (permet de s'assurer que toutes les librairies dynamiques sont
+                  presentes)
+
+Voir la doc pour la mise en place
+
