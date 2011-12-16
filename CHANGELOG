@@ -1,32 +1,32 @@
-Pam_cas-2.0.11-esup-2.0.5 (10/03/2009) :
-    - utilisation de http/1.1 au lieu 1.0
-        modification proposee par Benoit Jacquemont - SMILE
-    - ajout de logs en cas d'erreur
+Pam_cas-2.0.11-2.0.5-esup (10/03/2009)
+     - Use HTTP/1.1 instead 1.0
+         modification proposed by Benoit Jacquemont - SMILE
+     - Added logs on error
 
-Pam_cas-2.0.11-esup-2.0.4 (30/08/2006) :
-    - test du net-id en case insensitive (Velpi)
-    - ajout d'un log en cas d'authentification reussie, si debug on (Velpi)
-    - correction d'une erreur de segmentation sur archi 64 bits (Emmanuel Aubert)
+Pam_cas-2.0.11-2.0.4-esup (30/08/2006):
+     - Test the net-id in case insensitive (Velpi)
+     - Added a log in case of successful authentication, if you debug (Velpi)
+     - Fixed a segmentation fault on 64 bit architecture (Emmanuel Aubert)
 
-Pam_cas-2.0.11-esup-2.0.3 :
-    - la taille par defaut du ticket passe de 14 a 32
+Pam_cas-2.0.11-2.0.3-esup:
+     - The default size of the ticket from 14 to 32
 
-Pam_cas-2.0.11-esup-2.0.2 :
-    - ajout du Makefile.solaris
+Pam_cas-2.0.11-2.0.2-esup:
+     - Added Makefile.solaris
 
-Pam_cas-2.0.11-esup-2.0.1 :
-    - le fichier INSTALL n'etait pas a jour
+Pam_cas-2.0.11-2.0.1-esup:
+     - The INSTALL file was not updated
 
-Pam_cas-2.0.11-esup-2.0 :
-    C'est le package Pam_cas-2.0.11-esup-2-alpha-2, renomme.
+Pam_cas-2.0.11-2.0-esup:
+     This is the package Pam_cas-2.0.11-esup-2-alpha-2, renamed.
 
 
-Pam_cas-2.0.11-esup-2-alpha-2 :
-    - modification de la lecture du fichier de conf, pour eliminer le caractere final \r
-    - ajout de CAS_LEN_NETID dans cas.h pour parametrer la longueur du netid
+Pam_cas-2.0.11-esup-2-alpha-2:
+     - Change in reading conf file to remove the final character \ r
+     - Added in CAS_LEN_NETID cas.h to set the length of the netid
 
-Pam_cas-2.0.11-esup-2-alpha-1 : 
-    - Le PT est ajoute dans la log normale en cas d'erreur d'authentification,
-      si le debug pam_cas est active.
-    - Un message specifique est affiche dans la log si le PAM-user est different
-      du CAS-user (ex : problemes de majuscules)
+Pam_cas-2.0.11-esup-2-alpha-1:
+     - The PT is added to the normal log on error authentication
+       if debug pam_cas is active.
+     - A specific message is displayed in the log if the user is different PAM-
+       CAS-user (eg problems of print)

@@ -1,14 +1,13 @@
-INSTALL du package esup de pam_cas
+INSTALL Package for esup pam_cas
 
-Voir la doc http://www.esup-portail.org/display/PROJPAMCAS/Module+PAM+pour+CAS
+See doc http://www.esup-portail.org/display/PROJPAMCAS/Module+PAM+pour+CAS
 
 - cd source
-- adapter eventuellement le Makefile
+- possibly adapt the Makefile
 - make
 - make test
 
-- ldd pam_cas.so (permet de s'assurer que toutes les librairies dynamiques sont
-                  presentes)
+- ldd pam_cas.so (ensures that all dynamic libraries are
+                   herein)
 
-Voir la doc pour la mise en place
-
+See the doc for the establishment
